@@ -1,0 +1,6 @@
+<div class="content">
+    <label for="name">Name: </label>
+    <input id="name" type="text" [formControl]="fname">
+    <br>
+    <button id="button" (click)="sendName(fname.value)">submit</button>
+</div>
